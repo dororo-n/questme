@@ -22,10 +22,10 @@ const Header = () => {
 			<motion.div
 				initial={{ y: -250 }}
 				animate={{ y: -10 }}
-				transition={{ delay: 0.2, type: "spring", stiffness: 120 }}
+				transition={{ type: "spring", stiffness: 120 }}
 				className="title"
 			>
-				<h1>Pizza Joint</h1>
+				<h1>QuestME</h1>
 			</motion.div>
 		</header>
 	);
